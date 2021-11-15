@@ -1,0 +1,57 @@
+body,html{
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+}
+body{
+  background:linear-gradient(45deg, red ,lime);
+}
+h1{
+  font-family: 'Poppins', sans-serif;
+  color: rgb(250,250,250);
+  font-size: 2.3em;
+
+}
+header{
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+}
+img{
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+
+  animation: imgno 0.5s linear forwards;
+}
+
+
+.author{
+  text-align: center;
+  margin-top: 50px;
+  border: 5px solid black;
+  width: 49%;
+  flex-grow: 1;
+}
+span{
+  position: relative;
+  height: 100%;
+  background-color: rgb(255,80,90);
+}
+footer{
+  text-align: center;
+}
+.authorcont{
+  display: flex;
+  flex-wrap: wrap;
+}
+.author:nth-child(1){
+  flex-grow: 15;
+}
+button{
+  width: 100px;
+  margin-top: 30%;
+  height: 50px;
